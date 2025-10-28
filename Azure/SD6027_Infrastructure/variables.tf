@@ -44,7 +44,7 @@ variable "tags" {
 variable "container_registry_name" {
   type        = string
   description = "The name of the Container Registry to create"
-  default     = "acrdemo"
+  default     = "acrsd6027dev"
 }
 
 variable "container_registry_sku" {
@@ -81,7 +81,7 @@ variable "subnet_address_prefix" {
 # Kubernetes Service Variables
 variable "cluster_name" {
   type    = string
-  default = "aks-dev-cluster"
+  default = "aks-sd6027-dev-cluster"
 }
 
 variable "dns_prefix" {
